@@ -5,12 +5,13 @@ function Header() {
   return (
     <header className='sticky top-0 z-100 flex justify-between items-center bg-white shadow-md py-4 px-5 md:px-10'>
       {/* Left section */}
-      <div className='relative flex items-center cursor-pointer'>
+      <div className='relative flex h-10 items-center cursor-pointer'>
         <Image 
           src='https://links.papareact.com/qd3' 
           alt='Airbnb logo' 
           width={100}
-          height={31.25}
+          height={50}
+          style={{objectFit: "contain"}}
           priority={true}
         />
       </div>
