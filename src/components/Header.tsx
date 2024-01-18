@@ -3,7 +3,7 @@ import { GlobeAltIcon, MenuIcon, SearchIcon, UserCircleIcon } from '@heroicons/r
 
 function Header() {
   return (
-    <header className='sticky top-0 z-100 flex justify-between items-center bg-white shadow-md py-4 px-5 md:px-10'>
+    <header className='sticky top-0 z-50 flex justify-between items-center bg-white shadow-md py-4 px-5 md:px-10'>
       {/* Left section */}
       <div className='relative flex h-10 items-center cursor-pointer'>
         <Image 
